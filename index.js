@@ -287,8 +287,8 @@ io.on('connection', (socket) => {
 });
 
 const PORT = 2000;
-server.listen(PORT, '0.0.0.0', () => {
-    console.log(`Server running on http://0.0.0.0:${PORT}`);
+server.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
 });
 
 // 정상적인 서버 종료 처리
